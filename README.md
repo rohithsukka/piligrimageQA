@@ -65,7 +65,7 @@ piligramageQA/
 
 ### 2. Clone & Install
 ```bash
-git clone https://github.com/your-username/piligramageQA.git
+git clone https://github.com/rohithsukka/piligramageQA.git
 cd piligramageQA
 python -m venv venv
 source venv/bin/activate  # Windows: .\venv\Scripts\activate
