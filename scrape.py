@@ -8,7 +8,13 @@ from reportlab.lib.pagesizes import A4
 # URLs to scrape
 URLS = [
     "https://en.wikipedia.org/wiki/Tirupati",
-    "https://en.wikipedia.org/wiki/Varanasi"
+    "https://en.wikipedia.org/wiki/Varanasi",
+    "https://en.wikipedia.org/wiki/Kedarnath_Temple",
+    "https://en.wikipedia.org/wiki/Venkateswara_Temple,_Tirumala",
+    "https://en.wikipedia.org/wiki/Badrinath_Temple",
+    "https://en.wikipedia.org/wiki/Sai_Baba_Temple,_Shirdi",
+    ""
+    
 ]
 
 os.makedirs("data", exist_ok=True)
