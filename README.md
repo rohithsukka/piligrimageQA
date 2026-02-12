@@ -29,6 +29,11 @@
 - **Data Acquisition**: BeautifulSoup4, Requests, Readability-lxml
 
 ---
+## Architecture
+<img width="279" height="640" alt="image" src="https://github.com/user-attachments/assets/204bddeb-12e8-48a8-8de8-8befb40a8257" />
+
+
+---
 
 ## 📁 Project Structure
 
@@ -104,6 +109,11 @@ Access the UI at `http://localhost:8080`.
 2. **Retrieval**: The system searches the Pinecone index (`temples`) for top-3 relevant document chunks.
 3. **Augmentation**: The chunks are injected into a specialized `TempleAssistant` system prompt.
 4. **Generation**: Groq processes the context-rich prompt and returns a concise, factual answer.
+
+---
+## Demo Image
+<img width="1914" height="856" alt="image" src="https://github.com/user-attachments/assets/93f6fbda-9f1e-4e39-a9ae-da422be2aebe" />
+
 
 ---
 
